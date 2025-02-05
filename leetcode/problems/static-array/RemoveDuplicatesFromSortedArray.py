@@ -1,6 +1,6 @@
 # 26. Remove Duplicates from Sorted Array
-# O(n)
-# O(1)
+# Time complexity: O(n)
+# Space complexity: O(1)
 class Solution:
     def removeDuplicates(self, nums):
         l = 1
