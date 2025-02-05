@@ -44,13 +44,3 @@ class StaticArray:
         for i in range(self.capacity):
             print(self.arr[i])
 
-
-arr = StaticArray()
-arr.insertEnd(1)
-arr.insertEnd(2)
-arr.insertEnd(3)
-arr.insertEnd(4)
-arr.insertEnd(5)
-arr.removeMiddle(0)
-arr.insertMiddle(1, 0)
-arr.printArr()
