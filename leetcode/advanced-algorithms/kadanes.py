@@ -11,4 +11,3 @@ def kadanes(nums):
         maxSum = max(maxSum, curSum)
     return maxSum
 
-
